@@ -1,4 +1,9 @@
-﻿function App() {
+﻿import { createRoot } from "react-dom/client";
+
+const rootElement = document.getElementById("react-wrapper");
+const root = createRoot(rootElement);
+
+function App() {
     return (
         <p>
             If you see this message, the template is loaded correctly. Happy coding!
@@ -6,8 +11,8 @@
     );
 }
 
-// ReactDom.render should be located at the end of the file
-ReactDOM.render(
-    <App />,
-    document.getElementById('react-wrapper')
+root.render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
 );
