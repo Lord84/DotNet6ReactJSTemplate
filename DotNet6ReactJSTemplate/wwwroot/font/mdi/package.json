@@ -1,0 +1,57 @@
+{
+  "_from": "@mdi/font",
+  "_id": "@mdi/font@7.0.96",
+  "_inBundle": false,
+  "_integrity": "sha512-rzlxTfR64hqY8yiBzDjmANfcd8rv+T5C0Yedv/TWk2QyAQYdc66e0kaN1ipmnYU3RukHRTRcBARHzzm+tIhL7w==",
+  "_location": "/@mdi/font",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@mdi/font",
+    "name": "@mdi/font",
+    "escapedName": "@mdi%2ffont",
+    "scope": "@mdi",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@mdi/font/-/font-7.0.96.tgz",
+  "_shasum": "9853c222623072f5575b4039c8c195ea929b61fc",
+  "_spec": "@mdi/font",
+  "_where": "D:\\Development\\Exercises\\DotNet6ReactJSTemplate\\DotNet6ReactJSTemplate",
+  "author": {
+    "name": "Austin Andrews",
+    "url": "http://twitter.com/templarian"
+  },
+  "bugs": {
+    "url": "https://github.com/Templarian/MaterialDesign/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Dist for Material Design Webfont. This includes the Stock and Community icons in a single webfont collection.",
+  "homepage": "https://materialdesignicons.com",
+  "keywords": [
+    "material",
+    "design",
+    "icons",
+    "webfont"
+  ],
+  "license": "Apache-2.0",
+  "name": "@mdi/font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Templarian/MaterialDesign-Webfont.git"
+  },
+  "scripts": {
+    "prepublish": "node scripts/verify.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "verify": "node scripts/verify.js"
+  },
+  "style": "css/materialdesignicons.css",
+  "version": "7.0.96"
+}
