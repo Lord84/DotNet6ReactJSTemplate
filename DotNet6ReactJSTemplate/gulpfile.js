@@ -128,10 +128,6 @@ const deps = {
         src: "bootstrap/dist/**/*",
         dst: "wwwroot/lib/bootstrap/"
     },
-    "popper.js": {
-        src: "popper.js/dist/umd/*",
-        dst: "wwwroot/lib/popper.js/"
-    },
     "mdi-font": {
         src: "@mdi/font/**/*",
         dst: "wwwroot/font/mdi/"
